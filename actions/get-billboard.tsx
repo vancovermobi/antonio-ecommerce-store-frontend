@@ -7,7 +7,7 @@ const getBillboard = async (id: string): Promise<Billboard> => {
 
     const{ billboardPlsc, billboardMongo } = await res.json()
     
-    return billboardMongo;
+    return billboardPlsc;
 }
  
 export default getBillboard;

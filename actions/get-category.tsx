@@ -9,7 +9,7 @@ const getCategory = async (id: string): Promise<Category> => {
 
     const{ categoryPlsc, categoryMongo } = await res.json()
     
-    return categoryMongo;
+    return categoryPlsc;
 }
  
 export default getCategory;

@@ -25,7 +25,7 @@ const getProducts = async (query: Query): Promise<Product[]> => {
 
     const{ productsPlsc, productsMongo } = await res.json()
     
-    return productsMongo;
+    return productsPlsc;
 }
  
 export default getProducts;

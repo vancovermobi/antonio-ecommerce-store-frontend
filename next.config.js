@@ -3,6 +3,7 @@ const nextConfig = {
     images: {
         domains: [
           'lh3.googleusercontent.com', 
+          "tailwindui.com",
           'res.cloudinary.com', 
           'task.com',
           "liem-nextjs-ecommerce.s3.amazonaws.com",

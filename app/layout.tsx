@@ -10,10 +10,12 @@ import ModalProvider from '@/providers/modal-provider'
 import './globals.css'
 
 const font = Urbanist({ subsets: ['latin'] })
+const label = ""
+const logo = '/logo-camel.webp'
 
 export const metadata: Metadata = {
-  title: 'Store',
-  description: 'Store',
+  title: 'Camel',
+  description: 'Camel - Chất liệu da 100%',
 }
 
 export default function RootLayout({
@@ -29,7 +31,7 @@ export default function RootLayout({
 
         <ModalProvider />
 
-        <Navbar />
+        <Navbar label={ label } logo={ logo }/>
 
         {children}
 

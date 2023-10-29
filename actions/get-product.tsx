@@ -9,7 +9,7 @@ const getProduct = async (id: string): Promise<Product> => {
 
     const{ productPlsc, productMongo } = await res.json()
     
-    return productMongo;
+    return productPlsc;
 }
  
 export default getProduct;

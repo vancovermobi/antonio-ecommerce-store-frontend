@@ -72,4 +72,4 @@ const ProductCard: React.FC<ProductCardProps> = ({ data }) => {
     );
 }
  
-export default ProductCard;
+export default ProductCard; 

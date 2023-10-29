@@ -55,7 +55,7 @@ const CategoryIdPage: React.FC<CategoryIdPageProps> = async ({
                             <Filter 
                                 data={ colors }
                                 name="Colors"
-                                valueKey="colorsId"
+                                valueKey="colorId"
                             />
                         </div>
                         

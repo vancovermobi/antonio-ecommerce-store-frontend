@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from 'react'
+import { ToCurrency } from '@/lib/utils'
 
 const formatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -22,7 +23,8 @@ const Currency: React.FC<CurrencyProps> = ({ value = 0 }) => {
     
     return ( 
         <div className="font-semibold">
-            { formatter.format(Number(value)) }
+            {/* { formatter.format(Number(value)) } */}
+            { ToCurrency( Number(value) , 'VND', 'symbol', 0,'vi-VN') }
         </div>
     );
 }
